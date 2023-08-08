@@ -11,5 +11,5 @@ class Solution:
                     flip += 1
                 i += 1
             j += 1
-        maxlen = max(j-i, maxlen)
+            maxlen = max(j-i, maxlen)
         return maxlen
